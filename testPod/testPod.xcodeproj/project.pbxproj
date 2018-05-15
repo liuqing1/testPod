@@ -15,6 +15,7 @@
 		49EB9D3520AAAD44002EABD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB9D3420AAAD44002EABD6 /* main.m */; };
 		49EB9D3F20AAAD44002EABD6 /* testPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB9D3E20AAAD44002EABD6 /* testPodTests.m */; };
 		49EB9D4A20AAAD44002EABD6 /* testPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB9D4920AAAD44002EABD6 /* testPodUITests.m */; };
+		49EB9D5920AAB787002EABD6 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB9D5820AAB787002EABD6 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		49EB9D4520AAAD44002EABD6 /* testPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EB9D4920AAAD44002EABD6 /* testPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPodUITests.m; sourceTree = "<group>"; };
 		49EB9D4B20AAAD44002EABD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EB9D5720AAB787002EABD6 /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		49EB9D5820AAB787002EABD6 /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				49EB9D3020AAAD44002EABD6 /* LaunchScreen.storyboard */,
 				49EB9D3320AAAD44002EABD6 /* Info.plist */,
 				49EB9D3420AAAD44002EABD6 /* main.m */,
+				49EB9D5720AAB787002EABD6 /* CustomViewController.h */,
+				49EB9D5820AAB787002EABD6 /* CustomViewController.m */,
 			);
 			path = testPod;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				49EB9D2A20AAAD43002EABD6 /* ViewController.m in Sources */,
 				49EB9D3520AAAD44002EABD6 /* main.m in Sources */,
 				49EB9D2720AAAD42002EABD6 /* AppDelegate.m in Sources */,
+				49EB9D5920AAB787002EABD6 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
