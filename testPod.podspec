@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "photo browser for ios."
+  s.description  = <<-DESC 
+                          LZTool 是一个用于保存一些常用工具类的工具
+                   DESC
 
   s.homepage     = "https://github.com/liuqing1/testPod.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "testPod", "testPod/**/*.{h,m}"
+  s.source_files  = "testPod", "testPod/*.{h,m}"
   s.exclude_files = "testPod/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
